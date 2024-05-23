@@ -1,0 +1,28 @@
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info img {
+    border-radius: 50px;
+}
+
+.contact-info .text-info label {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.contact-info .call-button {
+    margin-left: 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
